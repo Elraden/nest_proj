@@ -3,6 +3,7 @@ import { AdvantagesModel } from './advantages.model';
 import { HhModel } from './hh.model';
 
 export class TopPageModel {
+	_id: string;
 	firstCategory: TopLevelCategory;
 	secondCategory: string;
 	title: string;
